@@ -25,3 +25,29 @@ class Employment {
   String period, company, position, description;
   Employment(this.period, this.company, this.position, this.description);
 }
+
+class Education {
+  String period, institution, degree, details;
+  Education(this.period, this.institution, this.degree, this.details);
+}
+
+class Skill {
+  String title, level;
+  List<String> details;
+  Skill(this.title, this.level, this.details);
+}
+
+class Language {
+  String lang, detail;
+  Language(this.lang, this.detail);
+}
+
+class Award {
+  String title, awarded, description;
+  Award(this.title, this.awarded, this.description);
+}
+
+class SocialProfile {
+  String provider, handle;
+    SocialProfile(this.provider, this.handle);
+}
