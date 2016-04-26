@@ -10,7 +10,6 @@ class Resume {
   List<Award> awards;
 }
 
-
 class Contact {
   String phone, email, url;
   Contact(this.phone, this.email, this.url);
@@ -49,5 +48,5 @@ class Award {
 
 class SocialProfile {
   String provider, handle;
-    SocialProfile(this.provider, this.handle);
+  SocialProfile(this.provider, this.handle);
 }
