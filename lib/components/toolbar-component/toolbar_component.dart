@@ -1,0 +1,1 @@
+import 'package:angular2/core.dart' show Component;
