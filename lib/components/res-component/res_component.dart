@@ -4,13 +4,15 @@ import 'package:liverd/components/contact-component/contact_component.dart';
 import 'package:liverd/services/ResumeService.dart';
 import 'package:liverd/services/Resume.dart';
 import 'package:liverd/components/about-component/about_component.dart';
+import 'package:liverd/components/projects-component/projects_component.dart';
 
 
 @Component(
     selector: 'res-component',
     templateUrl: 'res_component.html',
     styleUrls: const ['res_component.css'],
-    directives: const [ToolbarComponent, ContactComponent, AboutComponent],
+    directives: const [ToolbarComponent, ContactComponent,
+    AboutComponent, ProjectsComponent],
     providers: const [ResumeService]
 )
 
