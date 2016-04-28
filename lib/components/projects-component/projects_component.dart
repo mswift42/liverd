@@ -1,11 +1,14 @@
-import 'package:angular2/core.dart' show Component;
+import 'package:angular2/core.dart' show Component, OnInit;
 import 'package:liverd/services/Resume.dart';
-import 'package:liverd/services/ResumeService.dart';
+import 'package:liverd/services/ResumeService.dart' show ResumeService;
+import 'package:liverd/components/section-component/section_component.dart';
+import 'package:liverd/components/project-component/project_component.dart';
 
 @Component(
     selector: 'projects',
-    templateUrl: 'projects_component.html'
-)
+    templateUrl: 'projects_component.html',
+    directives: const [SectionComponent, ProjectComponent],
+    providers: const [ResumeService])
 class ProjectsComponent {
   List<Project> projects;
 
@@ -13,3 +16,4 @@ class ProjectsComponent {
     projects = _resumeService.sampleResume().projects;
   }
 }
+
