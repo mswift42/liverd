@@ -5,6 +5,7 @@ import 'package:liverd/services/ResumeService.dart';
 import 'package:liverd/services/Resume.dart';
 import 'package:liverd/components/about-component/about_component.dart';
 
+
 @Component(
     selector: 'res-component',
     templateUrl: 'res_component.html',
