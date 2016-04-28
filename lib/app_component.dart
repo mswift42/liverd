@@ -5,5 +5,5 @@ import 'package:angular2/core.dart';
 import 'package:liverd/components/res-component/res_component.dart';
 
 @Component(selector: 'my-app', templateUrl: 'app_component.html',
-    directives: const [ResComponent])
+     directives: const [ResComponent])
 class AppComponent {}
