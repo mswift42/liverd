@@ -4,7 +4,7 @@ import 'package:liverd/components/section-component/section_component.dart';
 @Component(
     selector: 'contact-component',
     templateUrl: 'contact_component.html',
-    styleUrls: const ['constact_component.css'],
+    styleUrls: const ['contact_component.css'],
     directives: const [SectionComponent])
 class ContactComponent {
   @Input()
