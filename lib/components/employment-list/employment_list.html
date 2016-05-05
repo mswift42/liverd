@@ -1,7 +1,9 @@
-<div class="employmentlist">
-  <div *ngFor="let emp of employmentlist" class="singleemployment">
-    <employment-component [period]="emp.period" [company]="emp.company"
-                          [position]="emp.position" [description]="emp.description">
-    </employment-component>
+<section-component>
+  <div class="employmentlist">
+    <div *ngFor="let emp of employmentlist" class="singleemployment">
+      <employment-component [period]="emp.period" [company]="emp.company"
+                            [position]="emp.position" [description]="emp.description">
+      </employment-component>
+    </div>
   </div>
-</div>
+</section-component>
