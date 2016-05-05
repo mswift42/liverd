@@ -5,17 +5,24 @@ import 'package:liverd/services/ResumeService.dart';
 import 'package:liverd/services/Resume.dart';
 import 'package:liverd/components/about-component/about_component.dart';
 import 'package:liverd/components/projects-component/projects_component.dart';
-
+import 'package:liverd/components/employment-list/employment_list.dart';
 
 @Component(
     selector: 'res-component',
     templateUrl: 'res_component.html',
-    styleUrls: const ['res_component.css'],
-    directives: const [ToolbarComponent, ContactComponent,
-    AboutComponent, ProjectsComponent],
-    providers: const [ResumeService]
-)
-
+    styleUrls: const [
+      'res_component.css'
+    ],
+    directives: const [
+      ToolbarComponent,
+      ContactComponent,
+      AboutComponent,
+      ProjectsComponent,
+      EmploymentList
+    ],
+    providers: const [
+      ResumeService
+    ])
 class ResComponent implements OnInit {
   Resume res;
   Contact contact;
