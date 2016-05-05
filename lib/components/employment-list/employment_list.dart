@@ -6,8 +6,8 @@ import 'package:liverd/services/ResumeService.dart';
 
 @Component(
     selector: 'employment-list',
-    templateUrl: 'employment_component.html',
-    styleUrls: const ['employment_component.css'],
+    templateUrl: 'employment_list.html',
+    styleUrls: const ['employment_list.css'],
     directives: const [EmploymentComponent, SectionComponent])
 class EmploymentList {
   List<Employment> employmentlist;
