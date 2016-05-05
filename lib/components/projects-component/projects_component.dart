@@ -1,4 +1,4 @@
-import 'package:angular2/core.dart' show Component, OnInit;
+import 'package:angular2/core.dart' show Component;
 import 'package:liverd/services/Resume.dart';
 import 'package:liverd/services/ResumeService.dart' show ResumeService;
 import 'package:liverd/components/section-component/section_component.dart';
@@ -16,4 +16,3 @@ class ProjectsComponent {
     projects = _resumeService.sampleResume().projects;
   }
 }
-
