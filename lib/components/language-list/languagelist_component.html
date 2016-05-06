@@ -1,0 +1,6 @@
+<section-component>
+  <div *ngFor="#lang of languages" class="singlelang">
+    <language-component [lang]="lang.lang" [level]="lang.level">
+    </language-component>
+  </div>
+</section-component>
