@@ -1,0 +1,7 @@
+<section-component>
+  <div *ngFor="#award of awardlist" class="singleaward">
+    <award-component [title]="award.title" [awarded]="award.awarded"
+                     [description]="award.description">
+    </award-component>
+  </div>
+</section-component>
