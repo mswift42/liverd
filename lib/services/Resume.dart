@@ -37,8 +37,8 @@ class Skill {
 }
 
 class Language {
-  String lang, detail;
-  Language(this.lang, this.detail);
+  String lang, level;
+  Language(this.lang, this.level);
 }
 
 class Award {
