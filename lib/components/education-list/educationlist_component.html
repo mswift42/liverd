@@ -1,0 +1,7 @@
+<section-component>
+  <div *ngFor="#edu of educationlist" class="singleeducation">
+    <education-component [period]="edu.period" [institution]="edu.institution"
+                         [degree]="edu.degree" [details]="edu.details">
+    </education-component>
+  </div>
+</section-component>
