@@ -10,6 +10,7 @@ import 'package:liverd/components/education-list/educationlist_component.dart';
 import 'package:liverd/components/language-list/languagelist_component.dart';
 import 'package:liverd/components/award-list/awardlist_component.dart';
 import 'package:liverd/components/profile-list/profilelist_component.dart';
+import 'package:liverd/components/skill-list/skilllist_component.dart';
 
 @Component(
     selector: 'res-component',
@@ -26,7 +27,8 @@ import 'package:liverd/components/profile-list/profilelist_component.dart';
       EducationlistComponent,
       LanguagelistComponent,
       AwardlistComponent,
-      ProfilelistComponent
+      ProfilelistComponent,
+      SkilllistComponent
     ],
     providers: const [
       ResumeService
