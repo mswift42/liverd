@@ -1,0 +1,9 @@
+<section-component>
+  <div *ngFor="#skill of skilllist" class="singleskill">
+    <skill-component [title]="skill.title" [level]="skill.level">
+                </skill-component>
+                     <div *ngFor="#det of skill.details">
+                       <skilldetail-component [detail]="det"></skilldetail-component>
+                     </div>
+  </div>
+</section-component>
