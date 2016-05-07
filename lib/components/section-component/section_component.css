@@ -1,6 +1,6 @@
 .sectioncomponent {
-    padding:8px;
-    margin-top:1vh;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.19),
-    0 6px 6px rgba(0,0,0,0.23);
+  padding:8px;
+  margin-top:3vh;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.19),
+  0 3px 6px rgba(0,0,0,0.23);
 }
