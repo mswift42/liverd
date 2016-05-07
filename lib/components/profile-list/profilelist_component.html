@@ -1,0 +1,8 @@
+<section-component>
+  <div class="profilelist">
+    <div *ngFor="#prof of profilelist" class="singleprofile">
+      <profile-component [provider]="prof.provider" [handle]="prof.handle">
+      </profile-component>
+    </div>
+  </div>
+</section-component>
