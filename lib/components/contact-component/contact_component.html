@@ -1,14 +1,40 @@
 <section-component>
-    <div class="contacttitle">
-        <h2>Contact</h2>
-    </div>
-    <div class="contactphone">
-        <h4>{{phone}}</h4>
-    </div>
-    <div class="contactemail">
-        <h4>{{email}}</h4>
-    </div>
-    <div class="contacturl">
-        <h4>{{url}}</h4>
+    <!--<div class="contacttitle">-->
+        <!--<h2>Contact</h2>-->
+    <!--</div>-->
+    <!--<div class="contactphone">-->
+        <!--<h4>{{phone}}</h4>-->
+    <!--</div>-->
+    <!--<div class="contactemail">-->
+        <!--<h4>{{email}}</h4>-->
+    <!--</div>-->
+    <!--<div class="contacturl">-->
+        <!--<h4>{{url}}</h4>-->
+    <!--</div>-->
+    <div id="contact">
+        <div class="mdl-grid">
+            <div class="contactheader mdl-cell mdl-cell--4-col mdl-cell--12-col-phone mdl-cell--middle">
+               <h3>Contact</h3>
+            </div>
+            <div class="contactdetails mdl-cell mdl-cell--2-offset-desktop mdl-cell--6-col mdl-cell--12-col-phone mdl-cell--bottom">
+                <div class="mdl-grid">
+                    <div class="contactname mdl-cell mdl-cell--12-col">
+                        <h3>{{name}}</h3>
+                    </div>
+                    <div class="contactemailicon mdl-cell mdl-cell--2-col">
+                        <i class="material-icons">mail</i>
+                    </div>
+                    <div class="contactemailaddress mdl-cell mdl-cell--10-col">
+                        <p>{{email}}</p>
+                    </div>
+                    <div class="contactphoneicon mdl-cell mdl-cell--2-col">
+                        <i class="material-icons">phone</i>
+                    </div>
+                    <div class="contactphonenumber mdl-cell mdl-cell--10-col">
+                        <p>{{phone}}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </section-component>

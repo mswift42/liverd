@@ -7,6 +7,7 @@ import 'package:liverd/components/section-component/section_component.dart';
     styleUrls: const ['contact_component.css'],
     directives: const [SectionComponent])
 class ContactComponent {
+  @Input() String name;
   @Input()
   String phone;
   @Input()
