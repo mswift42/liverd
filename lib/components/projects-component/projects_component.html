@@ -1,5 +1,7 @@
 <section-component>
     <h2>Projects</h2>
-    <project-component *ngFor="#proj of projects" [title]="proj.title"
-    [description]="proj.description" [screenshot]="proj.screenshot"></project-component>
+    <div *ngFor="#proj of projects">
+        <project-component  [title]="proj.title"
+                           [description]="proj.description" [screenshot]="proj.screenshot"></project-component>
+    </div>
 </section-component>
