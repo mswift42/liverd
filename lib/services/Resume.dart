@@ -11,8 +11,8 @@ class Resume {
 }
 
 class Contact {
-  String phone, email, url;
-  Contact(this.phone, this.email, this.url);
+  String name, phone, email, url;
+  Contact(this.name, this.phone, this.email, this.url);
 }
 
 class Project {
