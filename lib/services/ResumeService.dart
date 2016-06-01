@@ -11,7 +11,8 @@ class ResumeService {
     res.contact = new Contact("Richard Hendriks", "richard.hendriks@mail.com", "(912) 555-4321",
         "http://richardhendriks.com");
     res.projects = [
-      new Project("todoapp1", "sophisticated todo app.", "blowyourmind.png")
+      new Project("todoapp1", "sophisticated todo app.", "images/tc1chrome.png"),
+      new Project("Calculus", "what a calculator", "images/wall1.jpg")
     ];
     res.employment = [
       new Employment(
