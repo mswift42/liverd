@@ -1,6 +1,21 @@
 .sectioncomponent {
-  padding:8px;
   margin-top:3vh;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.19),
-  0 3px 6px rgba(0,0,0,0.23);
+  margin-left:2vw;
+  margin-right:2vw;
 }
+@media (max-width:600px) {
+  .sectioncomponent {
+    padding: 8px;
+    margin-top: 3vh;
+    margin-left: 0.5;
+    margin-right: 0.5;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.19),
+    0 3px 6px rgba(0, 0, 0, 0.23);
+  }
+
+}
+.mdl-card {
+  padding:8px;
+  width:96%;
+}
+
