@@ -1,14 +1,16 @@
-<div class="periodandcompany">
-  <div class="period">
-    <span>{{period}}</span>
-  </div>
-  <div class="company">
-    <h3>{{company}}</h3>
-  </div>
-  <div class="position">
-    <h4>{{position}}</h4>
-  </div>
-  <div class="description">
-    <p>{{description}}</p>
-  </div>
+<div class="companyandtitle mdl-grid">
+    <div class="mdl-cell mdl-cell--4-col employer">
+        <h3>{{company}}</h3>
+    </div>
+    <div class="mdl-cell mdl-cell--4-col position">
+        <h3>{{position}}</h3>
+    </div>
+    <div class="yearsanddescription mdl-grid">
+        <div class="mdl-cell mdl-cell--2-col years">
+            <h5>{{period}}</h5>
+        </div>
+        <div class="mdl-cell mdl-cell--8-col description">
+            <p>{{description}}</p>
+        </div>
+    </div>
 </div>
