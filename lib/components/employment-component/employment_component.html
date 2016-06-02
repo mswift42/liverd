@@ -1,16 +1,18 @@
-<div class="companyandtitle mdl-grid">
-    <div class="mdl-cell mdl-cell--4-col employer">
-        <h3>{{company}}</h3>
-    </div>
-    <div class="mdl-cell mdl-cell--4-col position">
-        <h3>{{position}}</h3>
-    </div>
-    <div class="yearsanddescription mdl-grid">
-        <div class="mdl-cell mdl-cell--2-col years mdl-card__supporting-text">
-            <h5>{{period}}</h5>
+<div class="mdl-card mdl-shadow--2dp">
+    <div class="companyandtitle mdl-grid">
+        <div class="mdl-cell mdl-cell--4-col employer">
+            <h3 class="mdl-card__title-text">{{company}}</h3>
         </div>
-        <div class="mdl-cell mdl-cell--8-col description mdl-card__supporting-text">
-            <p>{{description}}</p>
+        <div class="mdl-cell mdl-cell--4-col position">
+            <h3 class="mdl-card__title-text">{{position}}</h3>
+        </div>
+        <div class="yearsanddescription mdl-grid">
+            <div class="mdl-cell mdl-cell--2-col years ">
+                <h5 class="mdl-card__supporting-text">{{period}}</h5>
+            </div>
+            <div class="mdl-cell mdl-cell--8-col description ">
+                <p class="mdl-card__supporting-text">{{description}}</p>
+            </div>
         </div>
     </div>
 </div>
